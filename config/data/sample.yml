@@ -1,0 +1,13 @@
+---
+test_true: true
+test_false: false
+test_yes: yes
+test_no: no
+test_on: on      # should load as "on" string instead of boolean true
+test_off: off    # should load as "off" string instead of boolean false
+test_y: y
+test_n: n
+test_Y: Y
+test_N: N
+a:
+  b: "c"
